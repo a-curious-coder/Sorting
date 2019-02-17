@@ -1,0 +1,13 @@
+﻿  Sorting.cpp
+c:\users\callu\google drive\term 2\fundamentals\assignment 1\sorting.cpp(16): error C2593: 'operator >>' is ambiguous
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(333): note: could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(203): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(197): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(192): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(933): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(919): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+  c:\users\callu\google drive\term 2\fundamentals\assignment 1\sorting.cpp(16): note: while trying to match the argument list '(std::istream, const int)'
+c:\users\callu\google drive\term 2\fundamentals\assignment 1\sorting.cpp(18): error C2466: cannot allocate an array of constant size 0
+c:\users\callu\google drive\term 2\fundamentals\assignment 1\sorting.cpp(18): error C2133: 'a': unknown size
+c:\users\callu\google drive\term 2\fundamentals\assignment 1\sorting.cpp(19): error C2466: cannot allocate an array of constant size 0
+c:\users\callu\google drive\term 2\fundamentals\assignment 1\sorting.cpp(19): error C2133: 'b': unknown size

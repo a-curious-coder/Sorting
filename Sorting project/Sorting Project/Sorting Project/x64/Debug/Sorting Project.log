@@ -1,0 +1,5 @@
+﻿  Sorting.cpp
+c:\users\callu\google drive\term 2\fundamentals\assignment 1\sorting.cpp(15): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Tests.cpp
+  Generating Code...
+c:\users\callu\google drive\term 2\fundamentals\assignment 1\tests.cpp(69): error C4716: 'Tests::FloatSorter': must return a value
