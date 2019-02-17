@@ -29,20 +29,20 @@ int main()
 		if (choice == '1')
 		{
 			cout << "Test 1: Sorting Integers" << endl;
-			tests.IntegerSorter(a);
+			tests.IntegerSorter(a); // Fully functional Integer sorter.
 
 		}
 		else if (choice == '2')
 		{
 			cout << "\nTest 2: Sorting Float Numbers" << endl;
-			tests.FloatSorter(b);
+			tests.FloatSorter(b); // Sorts floating point objects.
 		}
 		else if (choice == '3')
 		{
 			cout << "\nTest 3: Sorting Integers and Floating Point numbers" << endl;
 			
 		}
-		else if (choice == 'q' || choice == 'Q')
+		else if (choice == 'q' || choice == 'Q') // Quits the programs.
 		{
 			
 			break;
