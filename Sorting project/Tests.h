@@ -5,7 +5,7 @@
 
 class Tests {
 public:
-	int IntegerSorter(int a[10]);
-	float FloatSorter(float b[10]);
+	int IntegerSorter(int a[]);
+	float FloatSorter(float b[]);
 } ;
 #endif // TESTS_H

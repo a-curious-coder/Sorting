@@ -60,7 +60,6 @@ int Tests::IntegerSorter(int a[])
 
 float Tests::FloatSorter(float b[10])
 {
-	b[] = {myinf, -myinf, 0, 1, 3.4, -5};
 	cout << "Float Sorter Function" << endl;
 	cout << "Before sorting:";
 	for(int i = 0; i < 10; i++)

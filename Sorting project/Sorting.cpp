@@ -11,10 +11,9 @@ int main()
 	system("cls"); //Windows Clear Command
 	Tests tests; // Tests object allows me to refer to its functions.
 	char choice = '1';
-	int a[]; // Array of integers which will be randomly made between numbers 1-100
-	double myinf = std::numeric_limits<double>::infinity(); // Defines the value of infinity
-	float b[]; // List of floats including infinity variables positive and negative
-
+	int a[10]; // Array of integers which will be randomly made between numbers 1-100
+	double myinf = numeric_limits<double>::infinity(); // Defines the value of infinity
+	float b[10] = { myinf, -myinf, 0.0f, 1.7f, 3.4f, -5.9f, 1.0f, 1.011f, 1.01f, 1.5f };; // List of floats including infinity variables positive and negative
 	cout << "Sorting Program\n" << endl;
 
 	while (1)
