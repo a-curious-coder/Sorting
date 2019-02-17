@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <vector>
-#include "Tests.h"
+#include "./Tests.h"
 using namespace std;
 
 
@@ -60,10 +60,35 @@ int Tests::IntegerSorter(int a[])
 
 float Tests::FloatSorter(float b[10])
 {
+	b[] = {myinf, -myinf, 0, 1, 3.4, -5};
 	cout << "Float Sorter Function" << endl;
-
+	cout << "Before sorting:";
 	for(int i = 0; i < 10; i++)
 	{
 		cout << b[i] << " ";
 	}
+	//----------------
+	//Sorts the floating point objects
+	for (int i = 0; i <= 8; i++)
+	{
+		for (int j = i + 1; j <= 9; j++)
+		{
+			if (b[i] > b[j])
+			{
+				int temp = b[i];
+				b[i] = b[j];
+				b[j] = temp;
+			}
+		}
+	}
+	//--------------
+	cout << "\nAfter sorting: ";
+	for (int i = 0; i < 10; i++)
+	{
+		cout << b[i] << " ";
+	}
+
+	cin.ignore();
+	cin.get();
+	return 0.0f;
 }

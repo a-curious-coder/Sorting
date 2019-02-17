@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstdlib>
-#include <vector>
+#include <limits>
 #include <ctime>
-#include "Tests.h"
+#include "./Tests.h"
 
 using namespace std;
 
@@ -10,9 +10,10 @@ int main()
 {
 	system("cls"); //Windows Clear Command
 	Tests tests; // Tests object allows me to refer to its functions.
-	char choice;
-	int a[10]; // Array of integers which will be randomly made between numbers 1-100
-	float b[10] = {1, 0, 5.6, -0};
+	char choice = '1';
+	int a[]; // Array of integers which will be randomly made between numbers 1-100
+	double myinf = std::numeric_limits<double>::infinity(); // Defines the value of infinity
+	float b[]; // List of floats including infinity variables positive and negative
 
 	cout << "Sorting Program\n" << endl;
 
@@ -20,7 +21,7 @@ int main()
 	{
 		system("cls");
 		cout << "Welcome to my sorting program" << endl;
-		cout << endl << "1. Sort Integer list " << endl;
+		cout << "1. Sort Integer list " << endl;
 		cout << "2. Sort floating point list" << endl;
 		cout << "q. quit " << endl;
 		cout << "\n> ";
